@@ -5,6 +5,13 @@
 //Ejecutar la terminal que viene por defecto de Git, esta se presenta casi al final de la instalacion
 //Se aprecia con un checkbox, lo aprobamos y finalizamos.
 
+
+//Descargar lo puesto con un CLONE se requiere aver instalado git.
+//poner git clone https://github.com/jonathanbarron/TrainingPHP.git
+//sino solo descargar como ZIP
+//poner toda la carpeta en C:/xampp/htdocs/
+//DUDAS O PREGUNTAS MANDAR DM (DIRECT MESSAGE).
+
 //============================>Ejecucion de la ventana
 //Git esta mas ambientado para el uso de una terminal desde Linux porque es super sencillo manejor desde ahi,
 //en windows es un rollo con el CMD, por eso es buena opcion la terminal que instala GIT.
