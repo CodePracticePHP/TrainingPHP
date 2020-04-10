@@ -1,0 +1,93 @@
+//Desacargar la version de git que viene en su sitio oficial -> https://git-scm.com/downloads
+//Instalar Git.
+
+//Curso Git -> https://www.youtube.com/watch?v=zH3I1DZNovk&list=PL9xYXqvLX2kMUrXTvDY6GI2hgacfy0rId&index=1
+//Ejecutar la terminal que viene por defecto de Git, esta se presenta casi al final de la instalacion
+//Se aprecia con un checkbox, lo aprobamos y finalizamos.
+
+//============================>Ejecucion de la ventana
+//Git esta mas ambientado para el uso de una terminal desde Linux porque es super sencillo manejor desde ahi,
+//en windows es un rollo con el CMD, por eso es buena opcion la terminal que instala GIT.
+//Como dije, GIT esta desarrollado para su uso con un Linux, por ello es escencial saber los comandos basicos:
+
+
+//===============RECOMENDACION===================
+//Utiliza el TAB cuando estes escribiendo los comandos, para que se autocompleten.
+//Utiliza doble TAB para verificar un comando o la lista de los similares en caso que no recuerdes alguno.
+//Siempre comenta tu codigo.
+
+//Comandos basicos Linux
+
+cd (Directorio): entrar a un directorio -> cd Desktop/Mimusica (ENTER).
+cd .. : Salir de un directorio pero no de la rama -> Desktop/MiMusica -> Desktop.
+cd (Enter) : Salir de toda la rama y llegar al nodo padre.
+
+ls : Listado de documentos.
+ls -l : Listado de documentos de manera ordenada.
+
+--help or help: Comando para encontrar ayuda de algo que deseas utilizar.
+
+mkdir (Name) : Crear una Carpeta/Directorio dentro del Directorio actual.
+rmdir (Name) : Remover Carpeta/Directorio Vacia.
+rm -r (Name) : Remover Carpeta/Directorio con archivos dentro.
+cp -r (Name ruta_de_destino/nombre_copia) : Copiar un archivo/directorio con todo lo que contenga.
+mv (Name) ruta_de_destino/nombre_directorio: Mover archivo/directorio.
+mv (Name) directorio_renombrado: Renombrar directorio.
+
+nano (name.extencion): crear un archivo de texto con la extencion que se desee.Si no existe el archivo, se crea, de lo contrario, se abre.
+
+tecla ctrl + L : Limpia la pantalla y pone el directorio arriba.
+
+clear: limpia toda la pantalla.
+
+
+//Comandos basicos GIT
+git config --global user.name "username": Asignacion de un username
+git config --global user.email "email"  : Asignacion de un correo
+git config --global --list : Ver la lista de configuraciones globales.
+
+//Comandos avanzados
+
+git init : Inicializar el monitoreo de cambios por Git.
+
+git status : Saber si algun archivo ha sido modificado. Saber que archivos aun no son añadidos. Saber que archivos estan añadidos.
+
+git add (archivo): Añadir un archivo editado.
+
+git add -A : Añadir todos los archivos existentes.
+
+git commit -m "comment": Realizar el commit con un comentario detallado del cambio realizado.
+
+git checkout sha: movernos a un commit en caso de algun error de codigo o verificacion.
+
+git log: Ver el LOG de los commits que se han realizado desde que se realizao el comando git init.
+
+git reset --soft: borrar un commit no deseado, sin tocar el codigo fuente existente.
+
+git help comando: saber que hace dicho comando.
+
+git branch rama: crear una nueva rama.
+
+git checkout rama : movernos entre ramas.
+
+git merge : Unir las ramas secundarias a la rama principal (MASTER).
+
+git branch -D rama: Eliminar una nueva rama.
+
+git checkout -b rama: crear una nueva rama y posicionarse en esa rama.
+
+//Comandos de GitHub
+
+git clone url : clonar un proyecto de github a nuestra pc.
+
+git remote add origin + https: asignar el proyecto local con el proyecto remoto.
+
+git remote remove origin : quita el proyecto remoto.
+
+git remote -v : Ver si esta conectado a un Remote o no.
+
+git push: envia las cosas que tenemos en local al repositorio de github 
+EJEMPLO: git push origin rama: sube todo los commit que exisen de dicha rama.
+
+git pull: Actualizar el repositorio clonado con el nuevo commit.
+
