@@ -1,3 +1,4 @@
+<?php
 //===============Ejercisio 1===================
 
 //En este archivo php realizar una asignacion de 5 variables, 2 string, 2 int y 1 bool.
@@ -15,14 +16,7 @@
 //OJO : Se deben mostrar cada uno de las cosas pedidas en pantalla.
 //OJO : Comentar el codigo
 
-
-
-
-
-
-
-
-
+?>
 
 
 
