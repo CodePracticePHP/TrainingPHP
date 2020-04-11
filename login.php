@@ -5,7 +5,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <!-- Title Page -->  
-    <title>Login hola x3</title>
+<<<<<<< HEAD
+    <title>Login</title>
+=======
+    <title>Inicio de sesión</title>
+>>>>>>> parent of bd03814... Update login.php
  
     <!-- CSS -->
     <link rel="stylesheet" href="css/reset.css">
