@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <!-- Title Page -->  
     <title>Login</title>
-    <title>Inicio de sesión</title>
  
     <!-- CSS -->
     <link rel="stylesheet" href="css/reset.css">
