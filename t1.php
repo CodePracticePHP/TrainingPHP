@@ -1,5 +1,6 @@
 <?php  
-//===============Ejercicio 1===================
+
+//===============Ejercisio 1===================
 //En este archivo php realizar una asignacion de 5 variables, 2 string, 2 int y 1 bool.
 
 	class Variables{
@@ -121,16 +122,5 @@
 	echo "<br>", "Tarea 10: ";
 	echo $obj->condicional();
 ?>
-
-
-
-
-
-
-
-
-
-
-
 
 
