@@ -97,4 +97,3 @@ git push: envia las cosas que tenemos en local al repositorio de github
 EJEMPLO: git push origin rama: sube todo los commit que exisen de dicha rama.
 
 git pull: Actualizar el repositorio clonado con el nuevo commit.
-
