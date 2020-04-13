@@ -1,6 +1,6 @@
 <?php  
 
-//===============Ejercisio 1===================
+//===============Ejercicio 1===================
 //En este archivo php realizar una asignacion de 5 variables, 2 string, 2 int y 1 bool.
 
 	class Variables{
